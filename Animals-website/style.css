@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+body{
+  font-family: 'Jost', sans-serif;
+}
+.header{
+  
+  
+  height: 4rem;
+  padding-top: 2.5rem;
+  
+}
+
+.header a{
+  color: rgb(45, 44, 44);
+  text-decoration: none;
+  margin-right: 2.5rem;
+}
+
+.header img{
+  
+  width: 4.5rem;
+  position: absolute;
+  top: 3rem;
+  left: 3rem
+ 
+  
+}
+.title{
+  background-color: orange;
+  text-align: center;
+  font-size: 2.5rem;
+  color:white;
+  height: 6rem;
+  padding-top: 2.5rem;
+  background-image: url(https://farukyalcinzoo.com/wp-content/uploads/2020/11/sari.svg);
+  background-repeat: none;
+  background-size: cover;
+}
+#links{
+  margin-left: 200px;
+}
+#magaza, #biletal{
+  background-color: orange;
+  color: white;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+
+#magaza:hover, #biletal:hover{
+    opacity: 0.7;
+    font-size: large;
+    background-color: brown;
+}
+
+ th, td{
+    border: 1px solid black;
+    border-style: solid;
+}
+
+table{
+    margin: 0.5rem;
+    width: 100%;
+}
+
+.pictures{
+text-align: center;
+}
+
+.pictures img{
+    margin:5px;
+    border-radius: 5px;
+    box-shadow: 3px 9px 9px gray;
+    width:30%;
+    height:300px ;
+}
+
+footer{
+    background-image: url(https://farukyalcinzoo.com/wp-content/uploads/2020/10/footer.jpg);
+    color: white;
+}
+
+.title2{
+    font-size: 3rem;
+    color: wheat;
+    text-align: center;
+}
+
+.footer_cont{
+    margin-left:20%;
+    padding-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+.footer_cont a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    }
+
+.footer_cont a:hover{
+    background-color:orange;
+    color:black;
+    border-radius: 3px;
+}
+
+.footer_cont div{
+    display: inline-block;
+    margin:5rem;
+}
+
+.icons{
+    margin-left:40%;
+}
+
+.icons a i{
+    font-size: 50px;
+    color:white;
+    margin:5px;
+}
+
