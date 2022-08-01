@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Lobster&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+header{
+    background-color: #74c3b2;
+    height: 5rem;
+    padding: 1rem 4rem 1rem 4rem;
+    border-bottom: 7px orange solid;
+    font-family: 'Cabin Sketch', cursive;
+    font-size:1.7rem;
+}
+
+header img{
+    width:5rem;
+}
+
+#logo{
+    margin-top:2rem;
+}
+
+.nav{
+    display: inline;
+    margin-right:3rem;
+}
+
+.nav a{
+    color:white;
+    text-decoration: none;
+    margin-left:1.5rem;
+}
+
+.nav a:hover{
+    color:blueviolet;
+}
+
+.nav span{
+    float:right;
+    font-size:2rem;
+}
+
+.navbar{
+    float:right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    /* border: 1px solid red; */
+    display: flex;
+    padding-top: 8rem;
+    border-top: 7px solid yellow;
+}
+
+.row img{
+    width:60%;    
+}
+
+.row a{
+    display: block;
+    background-color: blueviolet;
+    color:white;
+    width: 15rem;
+    padding: 8px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.col-1, .col-2{
+    /* border:1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#info{
+    transform: rotate(-10deg);
+    font-family: 'Cabin Sketch', cursive;
+    font-size:40px;
+    color: #74c3b2;
+}
+#info-inner{
+    color:blueviolet;
+}
+
+.parags{
+  margin-top: 70px; 
+  text-align: center; 
+}
+
+#para1{
+    font-size: 2.5rem;
+    font-family: 'Cabin Sketch', cursive;
+    color: #74c3b2;
+    transform: rotate(-5deg);
+}
+#para1>span{
+    color:blueviolet;
+}
+
+#para2{
+    margin-top: 50px;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#para2>span{
+    color:#74c3b2;
+}
+
+#para2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.cards{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-1 , .card-2 ,.card-3 , .card-4 {
+   width:230px;
+   }
+
+.card-1:hover{
+    position: relative;
+    top:-30px;
+}
+.card-2:hover{
+    position: relative;
+    top:-30px;
+}
+.card-3:hover{
+    position: relative;
+    top:-30px;
+}
+.card-4:hover{
+    position: relative;
+    top:-30px;
+}
+
+.card-1 .card-head{
+    background-color: crimson;
+}
+.card-2 .card-head{
+    background-color: goldenrod;
+}
+
+.card-3 .card-head{
+    background-color: blueviolet;
+}
+
+.card-4 .card-head{
+    background-color: rgb(91, 91, 189);
+}
+
+.card-head{    
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card-1 .card-cont{
+    margin-top: 10px;
+    border: 3px solid crimson;
+}
+
+.card-2 .card-cont{
+    margin-top: 10px;
+    border: 3px solid goldenrod;
+}
+
+.card-3 .card-cont{
+    margin-top: 10px;
+    border: 3px solid blueviolet;
+}
+.card-4 .card-cont{
+    margin-top: 10px;
+    border: 3px solid rgb(91, 91, 189);
+}
+
+.int{
+    padding: 20px;
+}
+
+.card-1 .cap{
+    background-color: crimson;
+}
+.card-2 .cap{
+    background-color: goldenrod;
+}
+.card-3 .cap{
+    background-color: blueviolet;
+}
+.card-4 .cap{
+    background-color:  rgb(91, 91, 189);
+}
+ .cap{
+   
+    height: 40px;
+    color:white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subpara{
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.subpara p{
+    padding: 10px;
+}
+
+.subpara .bill{
+    text-align: end;
+    font-size:2rem;
+}
+
+.bill>span{
+    font-size: 15px;
+}
+
+.card-1 .link a{
+    text-decoration: none;
+    color: white;
+    }
+
+.card-1 .link {
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top:-15px;
+}
+
+.card-2 .link a{
+    text-decoration: none;
+    color: white;
+    }
+
+.card-2 .link {
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top:-15px;
+}
+
+.card-3 .link a{
+    text-decoration: none;
+    color: white;
+    }
+
+.card-3 .link {
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top:-15px;
+}
+
+.card-4 .link a{
+    text-decoration: none;
+    color: white;
+    }
+
+.card-4 .link {
+    background-color: rgb(91, 91, 189);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top:-15px;
+}
+
+.bottom-cont{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+#bottom-2{
+    margin-top: 20px;
+}
+
+#bottom-2 a{
+    text-decoration: none;
+    color:black;
+}
+#bottom-2 a:active{
+    text-decoration: underline;
+}
