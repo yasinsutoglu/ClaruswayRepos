@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&family=Lobster&family=Poppins:ital,wght@0,400;0,600;0,900;1,200;1,300;1,800&family=Roboto:ital,wght@0,300;1,100;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color:rgb(99, 86, 102)
+}
+.container {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+}
+.header {
+    /* border: 2px solid green; */
+    width: 100%;
+    margin-bottom: 30px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    padding: 10px;
+}
+.nav a {
+    text-decoration: none;
+    margin: 0 30px;
+    padding: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: thick;
+    border: 2px solid rgb(216, 141, 29);
+    background-color: coral;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgb(197, 181, 150);
+}
+.icon {
+    font-size: 25px;
+    font-weight: 300;
+}
+.nav a:hover {
+    background-color: coral;
+    color: white;
+    opacity: .7;
+    padding-right: 15px;
+}
+/* row satırana geçiyoruz iki sütunlu yapacağız */
+.content {
+    /* border: 2px solid blue; */
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+.col-1 {
+    /* border: 2px solid green; */
+    width: 100%;
+
+}
+h1 {
+    font-size: 60px;
+    color: chocolate;
+    margin-left: 30%;
+    margin-bottom: 50px;
+}
+span {
+    color: red;
+    font-size: 80px;
+    margin-left: 120px;
+}
+p {
+    font-size: 30px;
+    margin: auto;
+    padding: 15px;
+    
+}
+.link {
+    font-size: 15px;
+    border: 2px solid orange;
+    color: darkkhaki;
+    background-color: rgb(46, 45, 39);
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left:80%;
+    
+}
+.link:hover {
+    background-color: bisque;
+    color: darkorange;
+    padding: 11px;
+    font-size:22px;
+    box-shadow: 2px 2px 2px yellowgreen;
+}
+.col-2 {
+    position: relative;
+    width: 650px;
+    height: 400px;
+}
+.col-2 .img2 {
+    position:absolute;
+    top: 0;
+    left: 0;
+    opacity: .36;
+    width: 650px;
+    height: 400px;
+
+}
+
+
