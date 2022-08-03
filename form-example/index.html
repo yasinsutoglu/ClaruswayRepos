@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ABC Tasarım Programı Kurulum ve Satış Sozlesmesi</h1>
+
+        <form action="#">
+            <fieldset id="fs1">
+                <legend>Sozlesme Onay</legend>
+                <input type="checkbox" name="onay_sozlesme" id="onay" value="onay">
+                <label for="onay">Asagıdaki bilgilerin dogrulugunu kabul ediyorum ve sozlesmeyi onaylıyorum</label> <br>
+                <input type="submit" value="Formu Kaydet"> 
+                <input type="reset" value="Formu Temizle">
+            </fieldset>
+            <fieldset id="fs2">
+                <legend>Kisisel Bilgiler</legend>
+                <div class="inp">
+                    <div class="lbl"><label for="secureId">Form Guvenlik ID</label></div>
+                    <input type="text" id="secureId" name="secureId" placeholder="asdaff">
+                </div>
+                <div class="inp">
+                    <div class="lbl"><label for="ad">Ad</label></div>
+                    <input type="text" id="ad" name="isim" required>
+                </div>
+                <div class="inp">
+                    <div class="lbl"><label for="sAd">Soyad</label></div>
+                    <input type="text" id="sAd" name="soyisim" required>
+                </div>
+                <div class="inp">
+                    <div class="lbl"><label for="age">Yas</label></div>
+                    <input type="number" id="age" name="yas" >
+                </div>
+                <div class="inp">
+                    <div class="lbl"><label for="email">Mail Adresi</label></div>
+                    <input type="email" id="email" name="email" >
+                </div>
+                <div class="inp">
+                    <div class="lbl"><label for="foto">Fotograf Ekle</label></div>
+                    <input type="file" id="foto" name="foto" >
+                </div>
+            </fieldset>
+            <fieldset id="fs3">
+                <legend>Diger Bilgiler</legend>
+                <h5><strong>Buradaki Alanlar Mesleki Deneyimi Kapsar</strong></h5>
+                <div class="inp">
+                    <div class="lbl"><label for="inDate">Form Guvenlik ID</label></div>
+                    <input type="date" id="inDate" name="entrance_date">
+                </div>
+                <div class="inp">
+                    <div class="lbl"><br><span>Sektor Deneyimi</span><br><br><br></div>
+                    <div class="radio" id="rd">
+                        <input type="radio" name="junior" id="jun" value="junior">
+                        <label for="jun">1-5 Yil</label> <br>
+                        <input type="radio" name="middle" id="mid" value="middle">
+                        <label for="mid">6-10 Yil</label> <br>
+                        <input type="radio" name="senior" id="sen" value="senior">
+                        <label for="sen">11-15 Yil</label> <br>
+                        <input type="radio" name="staff" id="stf" value="staff">
+                        <label for="stf">15-Uzeri</label>
+                    </div>                    
+                </div>
+                <div class="inp">
+                    <div class="lbl"><br><label for="langs">Programlama Dilleri</label><br><br><br></div>
+                    <select name="langs" id="langs" multiple>
+                        <option value="csharp">C#</option>
+                        <option value="php">PHP</option>
+                        <option value="java">java</option>
+                        <option value="js">JS</option>
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                    </select>                   
+                </div>
+            </fieldset>
+            <fieldset id="fs4">
+                <legend>Sozlesme Kopyasi</legend>
+                <div class="inp">
+                    <textarea id="comment" name="comment_input">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic fugit aspernatur, doloribus sapiente assumenda odit commodi, eveniet aliquam illum aliquid quam nemo mollitia optio possimus reiciendis cupiditate recusandae maxime illo.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis distinctio eum rerum eos minus soluta illum a molestiae earum amet ut ea, dolor et impedit id mollitia magni deserunt ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat reiciendis quasi facilis nisi aspernatur consequuntur deserunt, a mollitia excepturi temporibus. Exercitationem, consectetur voluptates? Provident tenetur repudiandae ullam tempore natus illum!
+                    </textarea>
+                </div>
+            </fieldset>
+            <fieldset id="fs5">
+                <legend>Mail Listesi</legend>
+                <label for="ok">Mail Listesine Katilmak <strong>Istiyorum</strong></label>
+                <input type="radio" id="ok" name="mail_katılım" value="attandance" checked> <br>
+                <label for="notOk">Mail Listesine Katilmak <u><strong>Istemiyorum</strong></u></label>
+                <input type="radio" id="notOk" name="mail_katılım" value="noattandance">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

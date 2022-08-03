@@ -1,0 +1,34 @@
+.container h1{
+    text-align: center;
+}
+.inp{
+    margin:5px 0px;
+}
+.inp .lbl{
+    display: inline-block;
+    width:150px;
+}
+
+
+#secureId, #ad, #sAd, #age, #email, #foto{
+    margin-left: 10px;
+}
+
+.radio{
+    display: inline-block;
+}
+
+#inDate, #rd, #langs{
+    margin-left: 100px;
+}
+
+#langs{
+    width:100px;
+}
+
+#comment{
+    width:400px;
+    height: 150px;
+}
+
+
