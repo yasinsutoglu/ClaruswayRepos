@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey-Form</title>
+</head>
+<body>
+        <header>
+            <h1>Clarusway Survey Form</h1>
+            <p>Thank you for taking the time to help us improve the platform</p>            
+        </header>
+
+        <section class="first">
+            <label for="name">Name</label> <br>
+            <input type="text" id="name" placeholder="Enter your name" required> <br><br>
+            <label for="surname">Surname</label> <br>
+            <input type="text" id="surname" placeholder="Enter your surname" required> <br> <br>
+            <label for="mail"></label> <br> 
+            <input type="email" id="mail" placeholder="user@clarusway.com" required>
+        </section>
+
+        <section class="second">
+            <label for="role">Which option describes your current role?</label> <br>
+            <select name="role_clarusway" id="role">
+                <option value="" selected hidden>Choose an option</option>
+                <option>Beginner</option>
+                <option>Junior</option>
+                <option>Mid</option>
+                <option>Senior</option>
+            </select>
+        </section>
+
+        <section class="third">
+            <p>Would you recommend Clarusway to a friend?</p>
+            <input type="radio" id="html" name="first" value="HTML">
+            <label for="html">Yes, definitely</label><br>
+            <input type="radio" id="css" name="second" value="CSS">
+            <label for="css">Maybe</label><br>
+            <input type="radio" id="javascript" name="third" value="JavaScript">
+            <label for="javascript">Not sure</label><br>
+            <input type="radio" id="javascript" name="fourth" value="JavaScript">
+            <label for="javascript">No</label>
+        </section>
+
+        <section class="fourth">
+            <label for="favourite">What is your favourite feature of Clarusway?</label><br>
+            <select name="" id="favourite"> 
+                <option value="" selected  hidden>Choose an option</option>
+                <option value="">Teamworks</option>
+                <option value="">Pre-classes</option>
+                <option value="">Communitiy</option>
+                <option value="">CMS</option>
+            </select>
+        </section>
+
+        <section class="fifth">
+            <p>What Would you like to see improved </p>
+            <input type="checkbox" id="html" name="fav_language" value="HTML">
+            <label for="html">Frontend Projects</label><br>
+            <input type="checkbox" id="css" name="fav_language" value="CSS">
+            <label for="css">Backend Projects</label><br>
+            <input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">Data Science</label><br>
+            <input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">Additional Courses</label>
+        </section>
+
+        <section class="last">
+            <p>Any comments or suggestions?</p>
+            <textarea rows="2" placeholder="Enter your comment here..."></textarea>
+        </section>
+    
+        <section class="last">
+            <button class="button-51" role="button">Submit</button>
+          </section>
+        
+</body>
+</html>
