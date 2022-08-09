@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border:1px solid red;
+    height:100px;
+
+}
+
+.mail{
+    border: 1px solid green;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.mail p{
+    display: inline-block;
+    padding: 10px;
+    color:#656565;
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 1.5rem;
+}
+
+.icons{
+    border: 1px solid blue;
+    display: inline-block;
+    float: right;
+    padding:10px;
+    margin-right: 150px;
+}
+
+.icons a{
+    padding: 10px;
+    color:#7AB730;
+    font-size: 1.3rem;
+}
+
+.icons a:hover{
+    color:green;
+}
+
+nav{
+    width:80%;
+    margin: auto;
+    border:1px solid orange;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    height: 80px;
+    margin-top: -40px;
+}
+
+nav h1{
+    display: inline-block;
+    font-size:3rem;
+    color: #7AB730;
+}
+
+nav h1 span{
+    color: black;
+}
+
+.navlinks{
+    display: inline-block;
+    float: right;
+    vertical-align: center;
+    margin-top: 10px;
+}
+
+.navlinks ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin:0px 10px;
+    padding: 5px;
+}
+
+.navlinks a{
+    text-decoration: none;
+    padding: 20px 5px;
+    color: #212121;
+    font-weight: 900;
+    font-size: 1.4rem;
+    outline: 0;
+    
+}
+
+.navlinks a:hover{
+    color:#7AB730;
+}  
+
+#home{
+    color: #7AB730;
+}
+
