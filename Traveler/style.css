@@ -50,6 +50,7 @@ nav{
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
     height: 80px;
     margin-top: -40px;
+    
 }
 
 nav h1{
@@ -93,4 +94,11 @@ nav h1 span{
 #home{
     color: #7AB730;
 }
+
+main{
+    background-image: url(./imgs/carousel.jpg);
+    background-position: center;
+    background-size: cover;    
+}
+
 
